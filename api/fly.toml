@@ -4,8 +4,8 @@
 #
 # Note: this is used to deploy the production Crab Fit API to Fly.io
 
-app = "crabfit-api"
-primary_region = "syd"
+app = "jellifit-api"
+primary_region = "lax"
 
 [http_service]
   internal_port = 3000
