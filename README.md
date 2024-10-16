@@ -1,4 +1,4 @@
-# Jelli Fit... <img width="100" align="right" src="frontend/src/res/logo.svg" alt="avatar">
+# Jelli Fit... <img width="100" align="right" src="frontend/src/res/logo.svg" alt="jellifit logo">
 ## ...is currently under construction.
 <!--
 [![Frontend Checks](https://github.com/GRA0007/crab.fit/actions/workflows/check_frontend.yml/badge.svg)](https://github.com/GRA0007/crab.fit/actions/workflows/check_frontend.yml)
@@ -8,6 +8,7 @@
 Align your schedules to find the perfect time and place for your event!
 
 Jelli Fit adds place-finding functionality to [crab.fit](https://crab.fit/) by [Ben Grant](https://bengrant.dev/).
+
 Open-source and licensed under the [GNU GPLv3](./LICENSE).
 
 <!--
