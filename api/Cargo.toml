@@ -1,6 +1,6 @@
 [package]
-name = "crabfit-api"
-description = "API for Crab Fit"
+name = "jellifit-api"
+description = "API for Jelli Fit"
 license = "GPL-3.0-only"
 version = "3.0.0"
 edition = "2021"
