@@ -1,9 +1,9 @@
 [package]
 name = "jellifit-api"
-description = "API for Jelli Fit"
+description = "API for Jelli Fit, adapted from Crab Fit"
 license = "GPL-3.0-only"
-version = "3.0.0"
-edition = "2021"
+version = "0.0.1"
+edition = "2024"
 
 [features]
 sql-adaptor = []
