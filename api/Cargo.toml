@@ -13,6 +13,7 @@ datastore-adaptor = []
 members = ["common", "adaptors/*"]
 
 [dependencies]
+time = "0.3.35"
 axum = { version = "0.6.18", features = ["headers"] }
 serde = { version = "1.0.162", features = ["derive"] }
 tokio = { version = "1.28.0", features = ["macros", "rt-multi-thread"] }
