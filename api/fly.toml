@@ -1,15 +1,23 @@
-# fly.toml app configuration file generated for crabfit-api on 2023-05-16T19:42:08+10:00
+# fly.toml app configuration file generated for jelli-fit on 2024-12-11T21:06:23Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
-# Note: this is used to deploy the production Crab Fit API to Fly.io
 
-app = "jellifit-api"
-primary_region = "lax"
+app = 'jelli-fit'
+primary_region = 'lax'
+
+[build]
 
 [http_service]
   internal_port = 3000
   force_https = true
-  auto_stop_machines = true
+  auto_stop_machines = 'stop'
   auto_start_machines = true
   min_machines_running = 0
+  processes = ['app']
+
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1
+  memory_mb = 1024
