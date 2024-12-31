@@ -102,7 +102,7 @@ async fn main() {
     let addr = SocketAddr::from(([0, 0, 0, 0], 3000));
 
     println!(
-        "🦀 Jelli Fit API listening at http://{} in {} mode",
+        "🪼 Jelli Fit API listening at http://{} in {} mode",
         addr,
         if cfg!(debug_assertions) {
             "debug"
