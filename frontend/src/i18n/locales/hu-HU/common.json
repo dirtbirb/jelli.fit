@@ -1,10 +1,10 @@
 {
-  "name": "Crab Fit",
+  "name": "Jelli Fit",
   "tagline": "Készítsd el sajátod",
-  "cta": "Készítsd el a saját Crab Fited!",
+  "cta": "Készítsd el a saját Jelli Fited!",
   "created": "Készült {{date}}",
   "donate": {
-    "info": "Köszönjük, hogy a Crab Fitet használtad. Ha teszett, kérek támogass minket.",
+    "info": "Köszönjük, hogy a Jelli Fitet használtad. Ha teszett, kérek támogass minket.",
     "button": "Támogatás",
     "title": "Minden fillér számít :)"
   },
@@ -45,11 +45,11 @@
     },
     "colormap": {
       "label": "Hőtérkép színek",
-      "classic": "Crab Fit (klasszikus)"
+      "classic": "Jelli Fit (klasszikus)"
     }
   },
   "video": {
-    "title": "Crab Fit Promóciós Videó",
+    "title": "Jelli Fit Promóciós Videó",
     "button": "Videó megtekintése"
   }
 }

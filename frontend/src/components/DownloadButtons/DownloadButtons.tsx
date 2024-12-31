@@ -16,7 +16,7 @@ const DownloadButtons = () => {
 
   useEffect(() => {
     // Don't show buttons in the Android app
-    if (document.referrer.includes('android-app://fit.crab')) {
+    if (document.referrer.includes('android-app://fit.jelli')) {
       setIsVisible(false)
     }
 
@@ -29,9 +29,9 @@ const DownloadButtons = () => {
       <Button
         href={{
           // TODO: Chrome extension was removed due to iframe policies
-          // chrome: 'https://chrome.google.com/webstore/detail/crab-fit/pnafiibmjbiljofcpjlbonpgdofjhhkj',
-          firefox: 'https://addons.mozilla.org/en-US/firefox/addon/crab-fit/',
-          safari: 'https://apps.apple.com/us/app/crab-fit/id1570803259',
+          // chrome: 'https://chrome.google.com/webstore/detail/jelli-fit/pnafiibmjbiljofcpjlbonpgdofjhhkj',
+          firefox: 'https://addons.mozilla.org/en-US/firefox/addon/jelli-fit/',
+          safari: 'https://apps.apple.com/us/app/jelli-fit/id1570803259',
         }[browser]}
         icon={{
           // chrome: <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path fill="currentColor" d="M12,20L15.46,14H15.45C15.79,13.4 16,12.73 16,12C16,10.8 15.46,9.73 14.62,9H19.41C19.79,9.93 20,10.94 20,12A8,8 0 0,1 12,20M4,12C4,10.54 4.39,9.18 5.07,8L8.54,14H8.55C9.24,15.19 10.5,16 12,16C12.45,16 12.88,15.91 13.29,15.77L10.89,19.91C7,19.37 4,16.04 4,12M15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9A3,3 0 0,1 15,12M12,4C14.96,4 17.54,5.61 18.92,8H12C10.06,8 8.45,9.38 8.08,11.21L5.7,7.08C7.16,5.21 9.44,4 12,4M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" /></svg>,
@@ -42,14 +42,14 @@ const DownloadButtons = () => {
         rel="noreferrer noopener"
         isSecondary
       >{{
-          // chrome: t('about.chrome_extension'),
-          firefox: t('about.firefox_extension'),
-          safari: t('about.safari_extension'),
-        }[browser]}</Button>
+        // chrome: t('about.chrome_extension'),
+        firefox: t('about.firefox_extension'),
+        safari: t('about.safari_extension'),
+      }[browser]}</Button>
     )}
 
     <Button
-      href="https://play.google.com/store/apps/details?id=fit.crab"
+      href="https://play.google.com/store/apps/details?id=fit.jelli"
       icon={<svg aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path fill="currentColor" d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" /></svg>}
       target="_blank"
       rel="noreferrer noopener"

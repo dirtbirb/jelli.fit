@@ -1,6 +1,6 @@
-# Crab Fit Storage Adaptors
+# Jelli Fit Storage Adaptors
 
-This directory contains sub-crates that connect Crab Fit to a database of some sort. For a list of available adaptors, see the [api readme](../README.md).
+This directory contains sub-crates that connect Jelli Fit to a database of some sort. For a list of available adaptors, see the [api readme](../README.md).
 
 ## Adding an adaptor
 

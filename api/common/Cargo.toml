@@ -1,6 +1,6 @@
 [package]
 name = "common"
-description = "Shared structs and traits for the data storage and transfer of Crab Fit"
+description = "Shared structs and traits for the data storage and transfer of Jelli Fit"
 version = "0.1.0"
 edition = "2021"
 

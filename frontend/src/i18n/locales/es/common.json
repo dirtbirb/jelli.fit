@@ -1,10 +1,10 @@
 {
-  "name": "Crab Fit",
+  "name": "Jelli Fit",
   "tagline": "Crea tu propio",
-  "cta": "¡Crea tu propio Crab Fit!",
+  "cta": "¡Crea tu propio Jelli Fit!",
   "created": "Creado {{date}}",
   "donate": {
-    "info": "Gracias por usar Crab Fit. Si te gusta, considera hacer una donación.",
+    "info": "Gracias por usar Jelli Fit. Si te gusta, considera hacer una donación.",
     "button": "Donar",
     "title": "Cada donación cuenta :)"
   },
@@ -45,11 +45,11 @@
     },
     "colormap": {
       "label": "Colores del mapa de calor",
-      "classic": "Crab Fit (clásico)"
+      "classic": "Jelli Fit (clásico)"
     }
   },
   "video": {
-    "title": "Vídeo Promocional de Crab Fit",
+    "title": "Vídeo Promocional de Jelli Fit",
     "button": "Ver el vídeo"
   }
 }

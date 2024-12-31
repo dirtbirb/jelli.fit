@@ -9,5 +9,5 @@ To use this adaptor, make sure you have the `DATABASE_URL` environment variable 
 Example:
 
 ```env
-DATABASE_URL="postgresql://username:password@localhost:5432/crabfit"
+DATABASE_URL="postgresql://username:password@localhost:5432/jellifit"
 ```

@@ -30,7 +30,6 @@
       "label": "And the timezone",
       "defaultOption": "Select..."
     },
-
     "button": "Create",
     "errors": {
       "no_dates": "There aren't any dates selected",
@@ -39,17 +38,16 @@
       "unknown": "Something went wrong. Please try again later."
     }
   },
-
   "about": {
-    "name": "About Crab Fit",
+    "name": "About Jelli Fit",
     "events": "Events created",
     "availabilities": "Availabilities entered",
     "content": {
-      "p1": "Crab Fit helps you fit your event around everyone's schedules. Simply create an event above and send the link to everyone that is participating. Results update live and you will be able to see a heat-map of when everyone is free.<1/><2>Learn more about how to Crab Fit</2>.",
-      "p3": "Created by <1>Ben Grant</1>, Crab Fit is the modern-day solution to your group event planning debates.",
-      "p4": "The code for Crab Fit is open source, if you find any issues or want to contribute, you can visit the <1>repository</1>. By using Crab Fit you agree to the <3>privacy policy</3>.",
+      "p1": "Jelli Fit helps you fit your event around everyone's schedules. Simply create an event above and send the link to everyone that is participating. Results update live and you will be able to see a heat-map of when everyone is free.<1/><2>Learn more about how to Jelli Fit</2>.",
+      "p3": "Created by <1>Ben Grant</1>, Jelli Fit is the modern-day solution to your group event planning debates.",
+      "p4": "The code for Jelli Fit is open source, if you find any issues or want to contribute, you can visit the <1>repository</1>. By using Jelli Fit you agree to the <3>privacy policy</3>.",
       "p6": "To protect your privacy, events are deleted after 3 months of inactivity, and all passwords are securely hashed.",
-      "p5": "Consider donating below if it helped you out so Crab Fit can stay free for everyone. 🦀"
+      "p5": "Consider donating below if it helped you out so Jelli Fit can stay free for everyone. 🦀"
     },
     "chrome_extension": "Get the Chrome Extension",
     "firefox_extension": "Get the Firefox Extension",

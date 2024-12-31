@@ -106,20 +106,20 @@ pub async fn create_event<A: Adaptor>(
     Ok((StatusCode::CREATED, Json(event.into())))
 }
 
-// Generate a random name based on an adjective and a crab species
+// Generate a random name based on an adjective and a jelly species
 fn generate_name() -> String {
     let adjectives: Vec<String> =
         serde_json::from_slice(include_bytes!("../res/adjectives.json")).unwrap();
-    let crabs: Vec<String> = serde_json::from_slice(include_bytes!("../res/crabs.json")).unwrap();
+    let jellies: Vec<String> = serde_json::from_slice(include_bytes!("../res/jellies.json")).unwrap();
 
     format!(
-        "{} {} Crab",
+        "{} {} Jelly",
         adjectives.choose(&mut thread_rng()).unwrap(),
-        crabs.choose(&mut thread_rng()).unwrap()
+        jellies.choose(&mut thread_rng()).unwrap()
     )
 }
 
-// Generate a slug for the crab fit
+// Generate a slug for the jelli fit
 fn generate_id(name: &str) -> String {
     let mut id = encode_name(name.to_string());
     if id.replace('-', "").is_empty() {

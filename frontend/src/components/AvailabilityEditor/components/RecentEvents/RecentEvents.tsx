@@ -3,7 +3,7 @@ import { Temporal } from '@js-temporal/polyfill'
 
 import Button from '/src/components/Button/Button'
 import { useTranslation } from '/src/i18n/client'
-import CrabIcon from '/src/res/CrabIcon'
+import JelliIcon from '/src/res/JelliIcon'
 import { useStore } from '/src/stores'
 import useRecentsStore, { RecentEvent } from '/src/stores/recentsStore'
 import { relativeTimeFormat } from '/src/utils'
@@ -25,7 +25,7 @@ const RecentEvents = ({ eventId, times, onImport }: RecentEventsProps) => {
   const recents = useMemo(() => allRecents
     ?.filter(hasAvailability)
     .filter(e => e.id !== eventId && e.user.availability.some(a => times.includes(a))) ?? [],
-  [allRecents])
+    [allRecents])
 
   const [isOpen, setIsOpen] = useState(false)
   const [selected, setSelected] = useState<string>()
@@ -45,14 +45,14 @@ const RecentEvents = ({ eventId, times, onImport }: RecentEventsProps) => {
   return <>
     {!isOpen && <Button
       onClick={() => setIsOpen(true)}
-      icon={<CrabIcon aria-hidden="true" />}
+      icon={<JelliIcon aria-hidden="true" />}
     >
       {t('you.recent_event')}
     </Button>}
 
     {isOpen && <div className={styles.wrapper}>
       <p className={styles.title}>
-        <CrabIcon className={styles.icon} />
+        <JelliIcon className={styles.icon} />
         <strong>{t('you.recent_event')}</strong>
         (<button
           className={styles.linkButton}

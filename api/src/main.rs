@@ -102,7 +102,7 @@ async fn main() {
     let addr = SocketAddr::from(([0, 0, 0, 0], 3000));
 
     println!(
-        "🦀 Crab Fit API listening at http://{} in {} mode",
+        "🦀 Jelli Fit API listening at http://{} in {} mode",
         addr,
         if cfg!(debug_assertions) {
             "debug"
@@ -122,5 +122,5 @@ async fn main() {
 }
 
 async fn get_root() -> String {
-    format!("Crab Fit API v{}", env!("CARGO_PKG_VERSION"))
+    format!("Jelli Fit API v{}", env!("CARGO_PKG_VERSION"))
 }

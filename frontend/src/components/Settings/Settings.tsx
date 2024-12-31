@@ -107,7 +107,7 @@ const Settings = () => {
             label={t('options.colormap.label')}
             name="colormap"
             options={{
-              'crabfit': t('options.colormap.classic'),
+              'jellifit': t('options.colormap.classic'),
               ...Object.fromEntries(Object.keys(maps).sort().map(palette => [
                 palette,
                 unhyphenate(palette)

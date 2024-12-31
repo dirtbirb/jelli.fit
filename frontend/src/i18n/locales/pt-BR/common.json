@@ -1,10 +1,10 @@
 {
-  "name": "Crab Fit",
+  "name": "Jelli Fit",
   "tagline": "Crie o seu",
-  "cta": "Crie o seu próprio Crab Fit!",
+  "cta": "Crie o seu próprio Jelli Fit!",
   "created": "Criado {{date}}",
   "donate": {
-    "info": "Obrigado por usar Crab Fit! Gostou? Faça uma doação.",
+    "info": "Obrigado por usar Jelli Fit! Gostou? Faça uma doação.",
     "button": "Doar",
     "title": "Todo valor vale :)",
     "options": {
@@ -14,9 +14,9 @@
       "choose": "Escolhe um valor"
     },
     "messages": {
-      "about": "Achou o Crab Fit útil? Faça uma doação para para mantê-lo funcionando. 🦀",
-      "success": "Obrigado por sua doação! Sem essas contribuições Crab Fit não poderia ser gratuito e por isso te agradeço muito. Você é o máximo!",
-      "error": "Doação através do Google não pode ser feita. Por favor tente no site crab.fit 🦀"
+      "about": "Achou o Jelli Fit útil? Faça uma doação para para mantê-lo funcionando. 🦀",
+      "success": "Obrigado por sua doação! Sem essas contribuições Jelli Fit não poderia ser gratuito e por isso te agradeço muito. Você é o máximo!",
+      "error": "Doação através do Google não pode ser feita. Por favor tente no site Jelli.fit 🦀"
     }
   },
   "options": {
@@ -56,7 +56,7 @@
     }
   },
   "video": {
-    "title": "Vídeo promocional Crab Fit",
+    "title": "Vídeo promocional Jelli Fit",
     "button": "veja o vídeo"
   }
 }

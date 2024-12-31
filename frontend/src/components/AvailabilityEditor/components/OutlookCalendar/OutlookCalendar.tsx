@@ -26,7 +26,7 @@ const scopes = ['Calendars.Read', 'Calendars.Read.Shared']
 const publicClientApplication = new PublicClientApplication({
   auth: {
     clientId: '5d1ab8af-1ba3-4b79-b033-b0ee509c2be6',
-    redirectUri: process.env.NODE_ENV === 'production' ? 'https://crab.fit' : 'http://localhost:3000',
+    redirectUri: process.env.NODE_ENV === 'production' ? 'https://jelli.fit' : 'http://localhost:3000',
   },
   cache: {
     cacheLocation: 'sessionStorage',

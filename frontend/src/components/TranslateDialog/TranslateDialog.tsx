@@ -20,7 +20,7 @@ const useTranslateStore = create<TranslateStore>()(persist(
     translateDialogDismissed: false,
     dismissDialog: () => set({ translateDialogDismissed: true }),
   }),
-  { name: 'crabfit-translate' },
+  { name: 'jellifit-translate' },
 ))
 
 const TranslateDialog = () => {
@@ -34,15 +34,15 @@ const TranslateDialog = () => {
 
   return (store?.translateDialogDismissed === false && !isSupported) ? <div className={styles.popup}>
     <div>
-      <h2>Translate Crab Fit</h2>
-      <p>Crab Fit hasn't been translated to your language yet.</p>
+      <h2>Translate Jelli Fit</h2>
+      <p>Jelli Fit hasn't been translated to your language yet.</p>
     </div>
 
     <div className={styles.buttons}>
       <Button
         target="_blank"
         rel="noreferrer noopener"
-        href="https://explore.transifex.com/crab-fit/crab-fit/"
+        href="https://explore.transifex.com/jelli-fit/jelli-fit/"
       >Help translate!</Button>
       <Button isSecondary onClick={() => store.dismissDialog()}>Close</Button>
     </div>

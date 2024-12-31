@@ -1,10 +1,10 @@
 {
-  "name": "Crab Fit",
+  "name": "Jelli Fit",
   "tagline": "Stwórz swojego",
-  "cta": "Stwórz swojego Crab Fita!",
+  "cta": "Stwórz swojego Jelli Fita!",
   "created": "Stworzony {{date}}",
   "donate": {
-    "info": "Dziękujemy za używanie Crab Fit! Jeżeli ci się spodobał, możesz przekazać darowiznę.",
+    "info": "Dziękujemy za używanie Jelli Fit! Jeżeli ci się spodobał, możesz przekazać darowiznę.",
     "button": "Przekaż darowiznę",
     "title": "Każda ilość się liczy :)",
     "options": {
@@ -15,8 +15,8 @@
     },
     "messages": {
       "about": "Jeżeli ci pomogliśmy, weź pod uwagę przekazanie darowizny. 🦀",
-      "success": "Dziękujemy za darowiznę! Bez ciebie, Crab Fit nie był by darmowy, więc bardzo dziękujemy!",
-      "error": "Nie można wykonać darowizny przez Google. Prosze spróbować przez crab.fit 🦀"
+      "success": "Dziękujemy za darowiznę! Bez ciebie, Jelli Fit nie był by darmowy, więc bardzo dziękujemy!",
+      "error": "Nie można wykonać darowizny przez Google. Prosze spróbować przez Jelli.fit 🦀"
     }
   },
   "options": {
@@ -56,7 +56,7 @@
     }
   },
   "video": {
-    "title": "Promocyjne wideo Crab Fita",
+    "title": "Promocyjne wideo Jelli Fita",
     "button": "Obejrzyj wideo"
   }
 }

@@ -30,7 +30,6 @@
       "label": "Y la zona horaria",
       "defaultOption": "Seleccione..."
     },
-
     "button": "Crear",
     "errors": {
       "no_dates": "No hay fechas seleccionadas",
@@ -39,15 +38,14 @@
       "unknown": "Algo salió mal. Por favor, inténtelo de nuevo más tarde."
     }
   },
-
   "about": {
-    "name": "Acerca de Crab Fit",
+    "name": "Acerca de Jelli Fit",
     "events": "Eventos creados",
     "availabilities": "Disponibilidades ingresadas",
     "content": {
-      "p1": "Crab Fit te ayuda a adaptar tu evento a los horarios de todos. Simplemente cree un evento arriba y envíe el enlace a todos los participantes. Los resultados se actualizan en vivo y podrá ver un mapa de calor de cuándo todos están libres.<1/><2>Obtenga más información sobre cómo Crab Fit.</2>",
-      "p3": "Creado por <1>Ben Grant</1>, Crab Fit es la solución moderna para sus debates de planificación de eventos grupales.",
-      "p4": "Crab Fit es de código abierto, si encuentra algún problema o desea contribuir, puede visitar el <1>repositorio</1>. Al utilizar Crab Fit, acepta la <3>política de privacidad</3>.",
+      "p1": "Jelli Fit te ayuda a adaptar tu evento a los horarios de todos. Simplemente cree un evento arriba y envíe el enlace a todos los participantes. Los resultados se actualizan en vivo y podrá ver un mapa de calor de cuándo todos están libres.<1/><2>Obtenga más información sobre cómo Jelli Fit.</2>",
+      "p3": "Creado por <1>Ben Grant</1>, Jelli Fit es la solución moderna para sus debates de planificación de eventos grupales.",
+      "p4": "Jelli Fit es de código abierto, si encuentra algún problema o desea contribuir, puede visitar el <1>repositorio</1>. Al utilizar Jelli Fit, acepta la <3>política de privacidad</3>.",
       "p6": "Para proteger su privacidad, los eventos se eliminan después de 3 meses de inactividad y todas las contraseñas tienen un cifrado seguro.",
       "p5": "Considere hacer una donación a continuación si lo ayudó para que pueda ser gratuito para todos. 🦀"
     },

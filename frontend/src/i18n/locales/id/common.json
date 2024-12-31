@@ -1,10 +1,10 @@
 {
-  "name": "Crab Fit",
+  "name": "Jelli Fit",
   "tagline": "Buat milik Anda sendiri",
-  "cta": "Buat Crab Fit Anda sendiri!",
+  "cta": "Buat Jelli Fit Anda sendiri!",
   "created": "Dibuat {{date}}",
   "donate": {
-    "info": "Terima kasih telah menggunakan Crab Fit. Jika Anda menyukainya, pertimbangkan untuk berdonasi.",
+    "info": "Terima kasih telah menggunakan Jelli Fit. Jika Anda menyukainya, pertimbangkan untuk berdonasi.",
     "button": "Menyumbangkan",
     "title": "Setiap jumlah berarti :)",
     "options": {
@@ -14,9 +14,9 @@
       "choose": "Pilih jumlahnya"
     },
     "messages": {
-      "about": "Jika Crab Fit telah membantu Anda sama sekali, pertimbangkan untuk berdonasi agar tetap berjalan. 🦀",
-      "success": "Terima kasih atas donasi Anda! Tanpa Anda, Crab Fit tidak akan gratis, jadi terima kasih dan tetaplah hebat!",
-      "error": "Gagal memberikan donasi melalui Google. Silahkan coba berdonasi melalui website crab.fit 🦀"
+      "about": "Jika Jelli Fit telah membantu Anda sama sekali, pertimbangkan untuk berdonasi agar tetap berjalan. 🦀",
+      "success": "Terima kasih atas donasi Anda! Tanpa Anda, Jelli Fit tidak akan gratis, jadi terima kasih dan tetaplah hebat!",
+      "error": "Gagal memberikan donasi melalui Google. Silahkan coba berdonasi melalui website Jelli.fit 🦀"
     }
   },
   "options": {

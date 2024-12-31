@@ -11,13 +11,13 @@ interface SettingsStore {
   timeFormat: TimeFormat
   theme: Theme
   highlight: boolean
-  colormap: 'crabfit' | MapKey
+  colormap: 'jellifit' | MapKey
 
   setWeekStart: (weekStart: 0 | 1) => void
   setTimeFormat: (timeFormat: TimeFormat) => void
   setTheme: (theme: Theme) => void
   setHighlight: (highlight: boolean) => void
-  setColormap: (colormap: 'crabfit' | MapKey) => void
+  setColormap: (colormap: 'jellifit' | MapKey) => void
 }
 
 const useSettingsStore = create<SettingsStore>()(persist(
@@ -26,7 +26,7 @@ const useSettingsStore = create<SettingsStore>()(persist(
     timeFormat: '12h',
     theme: 'System',
     highlight: false,
-    colormap: 'crabfit',
+    colormap: 'jellifit',
 
     setWeekStart: weekStart => set({ weekStart }),
     setTimeFormat: timeFormat => set({ timeFormat }),
@@ -34,7 +34,7 @@ const useSettingsStore = create<SettingsStore>()(persist(
     setHighlight: highlight => set({ highlight }),
     setColormap: colormap => set({ colormap }),
   }),
-  { name: 'crabfit-settings' },
+  { name: 'jellifit-settings' },
 ))
 
 export default useSettingsStore

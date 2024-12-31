@@ -43,7 +43,7 @@ const Page = async () => {
         <DownloadButtons />
 
         <P><Trans i18nKey="about.content.p3" t={t} i18n={i18n}>_<a href="https://bengrant.dev" target="_blank" rel="noreferrer noopener author">_</a>_</Trans></P>
-        <P><Trans i18nKey="about.content.p4" t={t} i18n={i18n}>_<a href="https://github.com/GRA0007/crab.fit" target="_blank" rel="noreferrer noopener">_</a>_<Link href="/privacy" rel="license">_</Link>_</Trans></P>
+        <P><Trans i18nKey="about.content.p4" t={t} i18n={i18n}>_<a href="https://github.com/dirtbirb/jelli.fit" target="_blank" rel="noreferrer noopener">_</a>_<Link href="/privacy" rel="license">_</Link>_</Trans></P>
         <P>{t('about.content.p6')}</P>
         <P>{t('about.content.p5')}</P>
       </Content>

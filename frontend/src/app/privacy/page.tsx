@@ -30,7 +30,7 @@ const Page = async () => {
 
       {!i18n.language.startsWith('en') && <GoogleTranslate language={i18n.language}>{t('privacy:translate')}</GoogleTranslate>}
 
-      <h3>Crab Fit</h3>
+      <h3>Jelli Fit</h3>
       <div id="policy">
         <P>This SERVICE is provided by Benjamin Grant at no cost and is intended for use as is.</P>
         <P>This page is used to inform visitors regarding the policies of the collection, use, and disclosure of Personal Information if using the Service.</P>
@@ -76,7 +76,7 @@ const Page = async () => {
         <P>Last updated: 2023-06-10</P>
 
         <h2>Contact Us</h2>
-        <P>If you have any questions or suggestions about the Privacy Policy, do not hesitate to contact us at <a href="mailto:contact@crab.fit">contact@crab.fit</a>.</P>
+        <P>If you have any questions or suggestions about the Privacy Policy, do not hesitate to contact us at <a href="mailto:contact@jelli.fit">contact@jelli.fit</a>.</P>
       </div>
     </Content>
 

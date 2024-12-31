@@ -13,17 +13,17 @@ import './global.css'
 const karla = Karla({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://crab.fit'),
+  metadataBase: new URL('https://jelli.fit'),
   title: {
-    absolute: 'Crab Fit',
-    template: '%s - Crab Fit',
+    absolute: 'Jelli Fit',
+    template: '%s - Jelli Fit',
   },
-  keywords: ['crab', 'fit', 'crabfit', 'schedule', 'availability', 'availabilities', 'when2meet', 'doodle', 'meet', 'plan', 'time', 'timezone'],
+  keywords: ['jelli', 'fit', 'jellifit', 'schedule', 'availability', 'availabilities', 'when2meet', 'doodle', 'meet', 'plan', 'time', 'timezone'],
   description: 'Enter your availability to find a time that works for everyone!',
   themeColor: '#F79E00',
   manifest: 'manifest.json',
   openGraph: {
-    title: 'Crab Fit',
+    title: 'Jelli Fit',
     description: 'Enter your availability to find a time that works for everyone!',
     url: '/',
   },

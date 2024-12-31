@@ -32,13 +32,13 @@ const useRecentsStore = create<RecentsStore>()(persist(
     clearRecents: () => set({ recents: [] }),
   }),
   {
-    name: 'crabfit-recent',
+    name: 'jellifit-recent',
     version: 1,
     migrate: (persistedState, version) => {
       if (version === 0) {
         return {
           ...persistedState as RecentsStore,
-          recents: (persistedState as { recents: {id: string, name: string, created: number }[] }).recents.map(ev => ({
+          recents: (persistedState as { recents: { id: string, name: string, created: number }[] }).recents.map(ev => ({
             id: ev.id,
             name: ev.name,
             created_at: ev.created, // Field renamed

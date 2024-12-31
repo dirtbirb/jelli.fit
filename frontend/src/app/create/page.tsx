@@ -7,11 +7,11 @@ import Header from '/src/components/Header/Header'
 import Redirect from './Redirect'
 
 export const metadata: Metadata = {
-  title: 'Create a Crab Fit',
+  title: 'Create a Jelli Fit',
 }
 
 /**
- * Used in the Crab Fit browser extension, to be rendered only in an iframe
+ * Used in the Jelli Fit browser extension, to be rendered only in an iframe
  */
 const Page = async () => <>
   <Content isSlim>
