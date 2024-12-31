@@ -1,16 +1,16 @@
 :root {
   color-scheme: light dark;
 
-  --primary: #F79E00;
+  --primary: #63c9db;
 
   /* LIGHT */
   --background-light: #FFFFFF;
   --text-light: #000000;
-  --shadow-light: #F48600;
-  --highlight-light: #F4BB60;
+  --shadow-light: #0eaac5;
+  --highlight-light: #b0e0e9;
   --secondary-light: var(--shadow-light);
   --tertiary-light: var(--highlight-light);
-  --surface-light: #FEF2DD;
+  --surface-light: #b0e0e9;
   --error-light: #D32F2F;
   --loading-light: #DDDDDD;
   --font-weight-light: 600;
@@ -18,8 +18,8 @@
   /* DARK */
   --background-dark: #111111;
   --text-dark: #DDDDDD;
-  --shadow-dark: #CC7313;
-  --highlight-dark: #F4BB60;
+  --shadow-dark: #0c9bb4;
+  --highlight-dark: #b0e0e9;
   --secondary-dark: var(--highlight-dark);
   --tertiary-dark: var(--shadow-dark);
   --surface-dark: #30240F;
@@ -102,7 +102,10 @@ body {
 }
 
 @media print {
-  #app, .light, .dark {
+
+  #app,
+  .light,
+  .dark {
     --background: white;
   }
 }
@@ -111,6 +114,7 @@ a {
   color: var(--primary);
   border-radius: .2em;
 }
+
 a:focus-visible {
   outline: var(--focus-ring);
   outline-offset: 2px;
@@ -120,26 +124,33 @@ a:focus-visible {
   width: 16px;
   height: 16px;
 }
+
 *::-webkit-scrollbar-track {
   background: var(--surface);
 }
+
 *::-webkit-scrollbar-thumb {
   border-radius: 100px;
   border: 4px solid var(--surface);
   width: 12px;
   background: var(--tertiary);
 }
+
 *::-webkit-scrollbar-thumb:hover {
   background: var(--primary);
 }
+
 *::-webkit-scrollbar-thumb:active {
   background: var(--secondary);
 }
 
-input[type=checkbox], input[type=radio] {
+input[type=checkbox],
+input[type=radio] {
   accent-color: var(--primary);
 }
-input[type=checkbox]:focus-visible, input[type=radio]:focus-visible {
+
+input[type=checkbox]:focus-visible,
+input[type=radio]:focus-visible {
   outline: var(--focus-ring);
   outline-offset: 2px;
 }
