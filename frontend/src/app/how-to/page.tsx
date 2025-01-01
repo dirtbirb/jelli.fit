@@ -11,7 +11,6 @@ import Header from '/src/components/Header/Header'
 import { P } from '/src/components/Paragraph/Text'
 import Section from '/src/components/Section/Section'
 import TimeRangeField from '/src/components/TimeRangeField/TimeRangeField'
-import Video from '/src/components/Video/Video'
 import { useTranslation } from '/src/i18n/server'
 import { calculateTable, getWeekdayNames } from '/src/utils'
 
@@ -37,8 +36,6 @@ const Page = async () => {
       <Header />
 
       <h1>{t('help:name')}</h1>
-
-      <Video />
 
       <P>{t('help:p1')}</P>
       <P>{t('help:p2')}</P>

@@ -32,7 +32,7 @@ const Page = async () => {
 
       <h3>Jelli Fit</h3>
       <div id="policy">
-        <P>This SERVICE is provided by Benjamin Grant at no cost and is intended for use as is.</P>
+        <P>This SERVICE is provided by the author at no cost and is intended for use as is.</P>
         <P>This page is used to inform visitors regarding the policies of the collection, use, and disclosure of Personal Information if using the Service.</P>
         <P>If you choose to use the Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that is collected is used for providing and improving the Service. Your information will not be used or shared with anyone except as described in this Privacy Policy.</P>
 
@@ -73,7 +73,7 @@ const Page = async () => {
 
         <h2>Changes to This Privacy Policy</h2>
         <P>This Privacy Policy may be updated from time to time. Thus, you are advised to review this page periodically for any changes.</P>
-        <P>Last updated: 2023-06-10</P>
+        <P>Last updated: 2024-12-31</P>
 
         <h2>Contact Us</h2>
         <P>If you have any questions or suggestions about the Privacy Policy, do not hesitate to contact us at <a href="mailto:contact@jelli.fit">contact@jelli.fit</a>.</P>
